@@ -1,0 +1,166 @@
+$dominant:#891818;
+
+
+*{ 
+   // outline: 1px solid pink;
+    box-sizing: border-box;
+    //font-family: 'Roboto', sans-serif;
+    font: italic normal sans-serif 80px/106px Roboto;
+}
+// a標籤的四種狀態都和本身顏色保持一致
+a, a:hover, a:visited, a:link, a:active {
+    text-decoration:none;
+    outline: none;
+    display: block;
+    color: #fff;
+}
+
+h2{
+    font-size: 64px;
+    list-style: 84px;
+    font-style: italic;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 56px;
+}
+
+body{
+    max-width: 1920px;
+}
+//樣式設計
+.head{
+    max-width: 1920px;
+    height: 958px;
+    background: #000;
+    background-image: url("/img/banner.png");
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.headContent{
+    margin: auto;
+    color: #ffffff;
+
+    h1{
+        font: italic normal 900 80px/106px Roboto;
+        span{
+            display: block;
+            text-align: left;
+            font: italic normal bold 24px/42px Roboto;
+        }
+
+    }
+    p{
+        font: italic normal bold  24px/36px Roboto;
+    }
+
+}
+.link{
+    display: flex;
+    justify-content:space-between;
+    margin-top: 40px;
+    
+}
+.adout{
+    margin: 56px auto;
+}
+
+.self{
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    font: italic normal bold 24px/36px Roboto;
+    img{
+        margin-top: 40px;
+    }
+
+    .information{
+        span{
+            display: block;
+        }
+        padding-bottom: 24px;
+        border-bottom: 1px solid #000;
+    }
+    .round{
+        display: inline-flex;
+        height: 22px;
+        width: 22px;
+        border-radius:999em;
+        background-color: $dominant;
+        margin-right: 16px;
+    }
+    .education{
+        margin-top: 28px;
+    }
+}
+
+
+.brand{
+    background-color:#000;
+    color: #fff;
+
+    text-align: center;
+    padding-bottom: 160px;
+
+    span{
+        display: block;
+        font-style: italic;
+        font-size: 24px;
+        margin-top: 12px;
+    }
+    p{
+        padding: 32px;
+        line-height: 30px;
+    }
+    img{
+        margin: 20px;
+    }
+}
+
+.works{
+    ul{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    
+    flex-wrap: wrap;
+    justify-content: space-between;
+        li{
+            margin-bottom: 48px;
+        }
+
+
+    }
+    p{
+        margin: 16px;   
+        text-align: center;
+        font: italic normal medium 20px/30px Roboto;
+    }
+    img{
+        display: block;
+
+    }
+    span{
+        display: block;
+        text-align: center;
+        margin-top: 16px;
+    }
+}
+
+.footer{
+    background-color: #000;
+    color: #fff;
+    padding-bottom: 64px;
+    ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+        li{
+        margin: 16px;
+        font: italic normal medium 24px/36px Roboto;
+        
+    }
+    }
+}
